@@ -1,0 +1,368 @@
+* {
+  text-decoration: none;
+
+}
+
+main {
+  padding-top: 100px;
+}
+
+body {
+
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+/*Tittel INOVA*/
+.header-brand {
+  font-family: Catamaran;
+  font-size: 24px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+
+/* skifter under tittelen */
+header nav ul li a {
+  font-family: Catamaran;
+  font-size: 14px;
+  color: #111;
+  text-transform: uppercase;
+
+}
+
+.header-schedule {
+    display: none;
+}
+
+/*deskop*/
+@media only screen and (min-width:1000px) {
+  header .header-brand {
+    margin: 30px 0;
+    text-align: Left;
+    line-height: 38px;
+    padding: 0 20px 0 40px;
+    border-right: 3px solid #111;
+    float: left;
+  }
+  header nav ul {
+    margin: 20px 0px 0px 20px;
+    float: left;
+  }
+
+  header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 16px;
+  }
+
+  header nav ul li a {
+    font-family: Catamaran;
+    font-size: 18px;
+    color: #111;
+    line-height: 55px;
+  }
+}
+
+/*index-page*/
+.index-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url('img/banner.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+.vertical-center{
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.index-banner h2 {
+  font-family: Catamaran;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 75px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 2px 2px 8px #111;
+}
+.index-banner h1 {
+    font-family: Cormorant Garamond;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 45px;
+    color: #00FFFF;
+    text-align: center;
+    text-shadow: 4px 4px 10px #111;
+}
+
+.index-links div {
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+}
+
+.index-links div h3 {
+    font-family: Catamaran;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #111;
+}
+
+@media only screen and (min-width:1000px) {
+  .wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .index-banner {
+    height: 450px;
+  }
+  .index-banner h1 {
+display: block;
+width: 560px;
+margin: 0 auto;
+  }
+  .index-links div {
+    margin: 10px 10px 0;
+    height: 230px;
+    background-color: #f2f2f2;
+    float: left;
+  }
+  .index-boxlink-square {
+    width: calc(50% - 20px) !important;
+  }
+  .index-boxlink-rectangle {
+    width: calc(50% - 20px) !important;
+  }
+}
+
+
+/* footer */
+
+footer {
+  width: calc(100% - 80px);
+  padding: 40px 40px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul {
+  float: left;
+  padding-left: 20px;
+
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+
+}
+
+.schedule {
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+footer ul li a {
+  font-family: Catamaran;
+  font-size: 24px;
+  color: #fff;
+  line-height: 30px;
+}
+
+@media only screen and (min-width:1000px) {
+  .footer-links-cases {
+    display: block;
+  }
+  footer ul {
+    padding-right: 30px;
+  }
+
+  footer ul li p {
+    font-family: Catamaran;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+    line-height: 20px;
+
+  }
+
+}
+
+/*staffmembers*/
+
+.staffpage {
+float: center;
+width: 100%;
+height: 150px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+text-align: left;
+background-color: #f3f3f3;
+
+}
+.navn-ansatt {
+  font-size: 30px;
+  padding-left: 20px;
+}
+.staff  {
+  font-size: 22px;
+  padding-left: 20px;
+  padding-right: 60px;
+
+}
+
+
+
+
+/*Inova about page*/
+
+.about-wind-turbine {
+  max-width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url('img/wind-turbine.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+
+}
+
+.vertical-wind-turbine{
+  display: table-cell;
+  vertical-align: middle;
+
+}
+.about-wind-turbine p {
+  font-family: Catamaran;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 35px;
+  color: #1C2833;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+
+}
+.about-wind-turbine h1 {
+font-family: Cormorant Garamond;
+font-size: 50px;
+font-weight: 100;
+font-style: italic;
+line-height: 45px;
+color: black;
+text-align: center;
+
+
+}
+
+/* Contact page*/
+.contact-html {
+  background-color: #f3f3f3;
+}
+.form input {
+  width: 100%;
+}
+.contact-page {
+  width: 500px;
+  border: 5px solid #808080;
+  border-radius: .5em;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+  font-size: 24px;
+  height: 500px;
+  flex-direction: column;
+}
+
+textarea {
+  resize: vertical;
+  max-height: 150px;
+}
+.contact-overskrift {
+  font-size: 40px;
+  justify-content: space-between;
+  margin: 1em;
+  padding: 5px;
+}
+  .contact-info {
+    font-size: 18px;
+    border-radius: 2px solid black;
+    padding-left: 30px;
+  }
+
+/* Schedule */
+
+.schedulepage {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: auto;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: left;
+}
+.schedule {
+  display: flex;
+  align-items: Left;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 0 0.5rem;
+  text-align: left;
+}
+.Innovation {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  background-color: #66ccff;
+  border-radius: 0.4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2;
+  text-align: left;
+}
+span {
+  font-size: 1rem;
+  font-weight: bold;
+}
+button {
+
+
+
+}
